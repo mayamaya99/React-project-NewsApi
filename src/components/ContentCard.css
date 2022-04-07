@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+.contentCard{
+ background-color: #f9f7f1;     
+display: flex;
+width: 100%;
+padding: 10px;
+margin-bottom: 25px;
+box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15), 0 2px 5px 0 rgba(0,0,0,0.15);
+
+}
+.newsText{
+    display: flex;
+    flex-direction:column;
+    /* justify-content: space-between; */
+    padding: 0 0 0 10px;
+   
+
+}
+.newsImage{
+    object-fit:cover;
+    width: 320px;
+    height: 270px;
+
+}
+.contentText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0;
+   
+
+}
+.description{
+
+}
+.detail{
+
+    margin-top: 40px;
+}
+    @media(max-width:875px){
+        .newsCard{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .newsImage{
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+    }
+
+}
+.muted{
+font-size:10px ;
+}
+.title{
+    font-size:25px;
+}
+.button{
+     
+        background-color: white;
+        color: black;
+        border: 2px solid #e7e7e7;
+      }

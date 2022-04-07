@@ -1,0 +1,25 @@
+.nav {
+    height: 70px;
+  
+    box-shadow: 0px 1px 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .icon {
+    flex: 0.5;
+  }
+  h1 {
+    font-family: italic;
+    font-size: 60px;
+  }
+  h3 {
+    margin: 5px auto;
+  }
+  .newsDiv h2 {
+    text-align: center;
+  }
+  h2 {
+    margin-left: 100px;
+  }
+  
